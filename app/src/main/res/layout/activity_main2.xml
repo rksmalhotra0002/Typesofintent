@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.intent.typesofintent.Main2Activity">
+
+
+   <EditText
+       android:id="@+id/et_name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/enter_text"
+       android:layout_margin="@dimen/dimen12dp"
+       android:autofillHints="no"
+       android:inputType="text"
+       />
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen12dp"
+        android:text="@string/send_data_to_next_activity"
+        />
+
+
+</LinearLayout>
